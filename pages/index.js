@@ -54,6 +54,9 @@ export default function Home() {
       </Head>
 
       <main>
+        <div className="additional-message">
+          Bueno, esto es una página que hice en la noche solo para decirte que en verdad te aprecio mucho, me gustaría poder darte todo el amor que tengo y demostrártelo pero poco a poco se va dando, aunque creo que sabes de sobra que es un poco mucho. Sin embargo, espero poder estar a tu lado un tiempo bastante eterno, para que veas que el cariño que tengo hacia ti cada día se hace más grande. Gracias por permitirme estar a tu lado.
+        </div>
         <div className="heart"></div>
         <div className="message">Te quiero mucho cielo</div>
       </main>
