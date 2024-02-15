@@ -33,12 +33,9 @@ export default function Home() {
           }
           .heart:after {
             left: 0;
-            transform: rotate(45deg);
+            transform: rotate(90deg);
             transform-origin: 100% 100%;
           }
-          .heart(
-            transform: rotate(-45deg);
-          )
           .message {
             text-align: center;
             margin-top: 20px;
