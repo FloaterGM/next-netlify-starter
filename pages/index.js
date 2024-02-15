@@ -36,6 +36,9 @@ export default function Home() {
             transform: rotate(45deg);
             transform-origin: 100% 100%;
           }
+          .heart(
+            transform: rotate(-45deg);
+          )
           .message {
             text-align: center;
             margin-top: 20px;
