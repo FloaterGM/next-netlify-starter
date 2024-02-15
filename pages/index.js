@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Te quieroooo!!!</title>
         <link rel="icon" href="/favicon.ico" />
         <style>{`
           .heart {
@@ -15,6 +15,8 @@ export default function Home() {
             height: 90px;
             transform: rotate(-45deg);
             margin: 50px auto;
+            animation: drawHeart 2s forwards;
+            opacity: 0;
           }
           .heart:before,
           .heart:after {
@@ -39,16 +41,22 @@ export default function Home() {
             margin-top: 20px;
             font-size: 20px;
           }
+
+          @keyframes drawHeart {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+          }
         `}</style>
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
         <div className="heart"></div>
         <div className="message">Te quiero mucho cielo</div>
       </main>
-
-      <Footer />
     </div>
   )
 }
