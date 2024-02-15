@@ -28,7 +28,7 @@ export default function Home() {
             height: 80px;
             background-color: red;
             border-radius: 50px 50px 0 0;
-            transform: rotate(-125deg);
+            transform: rotate(0deg);
             transform-origin: 0 100%;
           }
           .heart:after {
