@@ -41,6 +41,10 @@ export default function Home() {
             margin-top: 20px;
             font-size: 20px;
           }
+          .additional-message{
+            text-align: center;
+            padding: 0px 50px 0px 50px;
+          }
 
           @keyframes drawHeart {
             0% {
